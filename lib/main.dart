@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (ctx) => GreatPlaces(),
       child: MaterialApp(
+        debugShowMaterialGrid: false,
         debugShowCheckedModeBanner: false,
         title: 'Great Places',
         theme: ThemeData(
